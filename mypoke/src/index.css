@@ -13,17 +13,22 @@ code {
 }
 
 .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 18.75rem;
   height: 25rem;
   border-radius: 0.75rem;
-  background-color: var(--color-green);
+  background-color: var(--color-grass);
   box-shadow:0.125rem 0.125rem 0.25rem var(--color-shadow);
+  padding: 0.313rem;
 }
 
-.cardSection{
-  width: 18.125rem;
+.card__section{
+  
+  width: 100%;
   height: 15rem;
   border-radius: 0.5rem;
-  background-color: var(--color-green);
-  box-shadow:0.125rem 0.125rem 0.25rem var(--color-shadow);
+  background-color: var(--color-white);
+
 }

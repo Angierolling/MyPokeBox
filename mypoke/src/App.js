@@ -15,7 +15,7 @@ function App() {
           <p>#001</p>
         </header>
 
-        <section className="cardSection">
+        <section className="card__section">
           <img></img>
           <div>
            <p>Grass</p>
