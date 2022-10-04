@@ -8,23 +8,29 @@ function App() {
   return (
     <main className="App">
       <></>
-      <article class="card">
+      <article className="card">
 
-        <header class="">
-          <h2 class >Bulbasaur</h2>
+        <header className="card__header">
+          <h2>Bulbasaur</h2>
           <p>#001</p>
         </header>
 
         <section className="card__section">
           <img></img>
-          <div>
-           <p>Grass</p>
+          <div className="card_section--container">
+
+           <div className="card__badge--grass">
+            <p>Grass </p>
+           </div>
+           <div className="card__badge--poison">
            <p>Poison</p>
+           </div>
+
           </div>
-          <h3>About</h3>
+          <h3 className="about">About</h3>
           <div>
 
-            <div>
+            <div className="card_section--container">
               <div>
                 <svg>
                 </svg>
