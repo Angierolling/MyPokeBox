@@ -1,10 +1,26 @@
 import './token.css';
+import React, {useState, useEffect} from 'react';
 
-import logo from './logo.svg';
 import './App.css';
+import {api} from './api';
 
+export const Ap = () => {
 
-function App() {
+//function App() {
+
+  const [pokemon,setPokemon] = useState('')
+
+  
+
+  useEffect(() => {
+    api.allPokemons() 
+  }, [])
+
+  useEffect(() => {
+    api.pokemon(3) 
+  }, [])
+  
+
   return (
     <main className="App">
       <></>
